@@ -1,15 +1,15 @@
-## This tool is for educational and personal use only. 
-## Do not use it for commercial purposes, bulk data collection, or any activity that violates Instagram’s Terms of Service.
-## The author is not responsible for any account or legal issues caused by misuse.
+# This tool is for educational and personal use only. 
+# Do not use it for commercial purposes, bulk data collection, or any activity that violates Instagram’s Terms of Service.
+# The author is not responsible for any account or legal issues caused by misuse.
 
-# Install requirement
+## Install requirement
 pip install selenium requests beautifulsoup4 pandas webdriver-manager
 
-# Edit login info
+## Edit login info
 username = "your_instagram_username"
 password = "your_instagram_password"
 
-# Select target user
+## Select target user
 user_profile_url = "https://www.instagram.com/target_username/"
 
 After execution, a file named instagram_data.csv will be generated in the same directory, containing:
@@ -19,7 +19,7 @@ After execution, a file named instagram_data.csv will be generated in the same d
 - Commenter
 - Comment content
 
-# Important Notes
+## Important Notes
 Account Risk:
 Instagram prohibits automated crawling.
 Using this script may result in account suspension, ban, or rate limiting.
